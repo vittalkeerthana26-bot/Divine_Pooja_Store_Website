@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+         background-image:url('https://png.pngtree.com/thumb_back/fh260/background/20230407/pngtree-gradient-blue-background-abstract-technology-image_2206524.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background:linear-gradient(0,0,0,0.5) ;
+    }
+    .box{
+        background-color: rgba(152, 177, 184, 0.142);
+        color: rgb(3, 51, 98);
+        text-align: center;
+        margin:70px 500px;
+        width:35%;
+        padding: 25px;
+        font-size: x-large;
+        font-weight: 30px;
+        border: 1px solid  rgb(3, 51, 98);
+        
+
+        
+    }
+    h1{
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-style: oblique;
+        text-align: center;
+    }
+    input{
+        background-color: rgba(255, 255, 255, 0);
+       border-radius: 5px;
+    }
+    input:focus{
+        background-color: aliceblue;
+    }
+    button{
+        background: linear-gradient(to right, #b7e3f8, #8fd3f4);
+        color: rgb(77, 1, 1);
+        border-radius: 5px;
+    }
+     button a{
+        text-align: center;
+        padding:20px 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="contact">
+    <h1>Contact Us</h1>
+
+    <form  class="box" action="action.html">
+        <label for="name">Full Name</label>
+        <input type="text" placeholder="Your Name" id="name" required>
+        <br>
+        <br>
+        <label for="no">Phone Number</label>
+        <input type="text" placeholder="Phone Number" id="no" required>
+        <br>
+        <br>
+        <label for="msg">Enter The Items</label>
+        <textarea  rows="7" placeholder="Items" required></textarea>
+        <br>
+        <br>
+        <h3>Payment type</h3>
+        <input type="radio" name ="name" id="radio">
+         <label for="radio">Online</label>
+        <input type="radio"  name="name" id="radio2">
+        <label for="radio2">Cash on delivery</label>
+        <br>
+        <br>
+        <button>SEND</button>
+    </form>
+    <button><a href="poojaitems.html" >HOME</a></button>
+</div>
+
+</body>
+</html>
